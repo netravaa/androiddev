@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Second practice</string>
+    <string name="avatar">Avatar</string>
+    <string name="version">OS version: %d </string>
+</resources>

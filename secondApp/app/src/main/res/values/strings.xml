@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Вторая практика</string>
+    <string name="avatar">Аватар</string>
+    <string name="version">Версия ОС: %d </string>
+</resources>
