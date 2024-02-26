@@ -1,4 +1,4 @@
-package com.witelokk.prac2;
+package com.netrava.prac2;
 
 import android.content.Intent;
 import android.os.Bundle;
