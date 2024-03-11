@@ -22,14 +22,14 @@ public class MainActivity extends AppCompatActivity {
         textView.setText("mirea");
 
 
-        TextView sunrise = findViewById(R.id.last);
-        sunrise.setBackgroundColor(0xFFC1B6D3);
-        sunrise.setTextColor(0xFF000000);
+        TextView last = findViewById(R.id.last);
+        last.setBackgroundColor(0xFFC1B6D3);
+        last.setTextColor(0xFF000000);
 
 
-        TextView sunset = findViewById(R.id.object);
-        sunset.setBackgroundColor(0xFFC1B6D3);
-        sunset.setTextColor(0xFF000000);
+        TextView object = findViewById(R.id.object);
+        object.setBackgroundColor(0xFFC1B6D3);
+        object.setTextColor(0xFF000000);
 
         // переопределение параметров
         ConstraintLayout.LayoutParams layoutParamsTextView = new ConstraintLayout.LayoutParams
@@ -39,12 +39,12 @@ public class MainActivity extends AppCompatActivity {
         layoutParamsTextView.verticalWeight = 1;
 
         // добавление новых параметров к уже существующим
-        ConstraintLayout.LayoutParams layoutParamsSunrise =
-                (ConstraintLayout.LayoutParams) sunrise.getLayoutParams();
+        ConstraintLayout.LayoutParams layoutParamsObject =
+                (ConstraintLayout.LayoutParams) last.getLayoutParams();
 
         // добавление новых параметров к уже существующим
         ConstraintLayout.LayoutParams layoutParamsSunset =
-                (ConstraintLayout.LayoutParams) sunset.getLayoutParams();
+                (ConstraintLayout.LayoutParams) object.getLayoutParams();
 
         // добавление новых параметров к уже существующим
 //        ConstraintLayout.LayoutParams layoutParamsTextView =
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 margin60InDP,
                 margin20InDP); // установка внешних отступов
 
-        layoutParamsSunrise.setMargins(
+        layoutParamsObject.setMargins(
                 margin60InDP,
                 margin20InDP,
                 margin60InDP,
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         layoutParamsTextView.leftToLeft = ConstraintLayout.LayoutParams.PARENT_ID;
-        layoutParamsTextView.bottomToTop = sunset.getId();
+        layoutParamsTextView.bottomToTop = last.getId();
         layoutParamsTextView.rightToRight = ConstraintLayout.LayoutParams.PARENT_ID;
         layoutParamsTextView.topToTop = ConstraintLayout.LayoutParams.PARENT_ID;
 
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         textView.setLayoutParams(layoutParamsTextView);
-        sunrise.setLayoutParams(layoutParamsSunrise);
-        sunset.setLayoutParams(layoutParamsSunset);
+        object.setLayoutParams(layoutParamsObject);
+        last.setLayoutParams(layoutParamsObject);
     }
 }
