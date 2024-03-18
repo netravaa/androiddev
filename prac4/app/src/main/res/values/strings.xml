@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">prac4</string>
+    <string name="hello">Добро пожаловать, друзья!</string>
+    <string name="time">А сколько время?: %s</string>
+    <string name="linear_layout">linear layout</string>
+    <string name="dog_in_relative">А это моя собака в</string>
+    <string name="pet">Погладить собаку</string>
+    <string name="activity">Выберите действие для собаки выше</string>
+    <string name="hug">Обнять собаку</string>
+    <string name="text_in_relative">relative layout</string>
+    <string name="go">Не отступаем</string>
+    <string name="go_a_little_bit">Отступаем немного в</string>
+    <string name="frame_layout">frame layout</string>
+    <string name="run">Убегаем</string>
+    <string name="table_layout">Вопрос в table layout</string>
+    <string name="how_name_of_dog">Как зовут мою собаку?</string>
+    <string name="maik">1. Майк</string>
+    <string name="persik">2. Персик</string>
+    <string name="disk">3. Диск</string>
+    <string name="dima">4. Дима</string>
+    <string name="text_grid">grid layout</string>
+</resources>

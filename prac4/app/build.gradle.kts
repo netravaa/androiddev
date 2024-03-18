@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.netrava.prac2"
+    namespace = "com.example.prac4"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.netrava.prac2"
-        minSdk = 24
+        applicationId = "com.example.prac4"
+        minSdk = 30
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_span="2"
+                    android:text="@string/table_layout"
+                    android:textSize="36sp"
+                    android:textColor="@color/red"
+                    android:gravity="center">
+                </TextView>
+        </TableRow>
+
+        <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_span="2"
+                    android:text="@string/how_name_of_dog"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp">
+                </TextView>
+        </TableRow>
+
+        <TableRow>
+                <TextView
+                    android:text="@string/maik"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                </TextView>
+
+                <TextView
+                    android:text="@string/persik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                </TextView>
+        </TableRow>
+
+        <TableRow>
+                <TextView
+                    android:text="@string/disk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                </TextView>
+
+                <TextView
+                    android:text="@string/dima"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                </TextView>
+        </TableRow>
+</TableLayout>
