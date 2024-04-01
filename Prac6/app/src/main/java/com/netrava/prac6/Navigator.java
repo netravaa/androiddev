@@ -1,11 +1,9 @@
-package com.witelokk.prac6;
+package com.netrava.prac6;
 
 import android.content.Intent;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
-import java.util.Objects;
 
 public class Navigator {
     AppCompatActivity activity;

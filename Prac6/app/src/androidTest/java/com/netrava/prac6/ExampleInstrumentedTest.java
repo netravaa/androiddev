@@ -1,4 +1,4 @@
-package com.witelokk.prac6;
+package com.netrava.prac6;
 
 import android.content.Context;
 

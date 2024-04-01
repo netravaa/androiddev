@@ -1,4 +1,4 @@
-package com.witelokk.prac6;
+package com.netrava.prac6;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -10,7 +10,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.witelokk.prac6.databinding.ActivityBottomNavigationBinding;
+import com.netrava.prac6.databinding.ActivityBottomNavigationBinding;
 
 public class BottomNavigationActivity extends AppCompatActivity {
     ActivityBottomNavigationBinding binding;

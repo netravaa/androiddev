@@ -1,4 +1,4 @@
-package com.witelokk.prac6;
+package com.netrava.prac6;
 
 import android.os.Bundle;
 
@@ -9,7 +9,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.witelokk.prac6.databinding.ActivityDrawerBinding;
+import com.netrava.prac6.databinding.ActivityDrawerBinding;
 
 public class DrawerActivity extends AppCompatActivity {
     ActivityDrawerBinding binding;

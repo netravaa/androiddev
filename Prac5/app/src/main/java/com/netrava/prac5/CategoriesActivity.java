@@ -25,11 +25,11 @@ import java.util.List;
 public class CategoriesActivity extends AppCompatActivity {
     ActivityCategoriesBinding binding;
     ArrayList<Pair<String, List<String>>> fruitVarieties = new ArrayList<>(Arrays.asList(
-            new Pair<>("Apples", Arrays.asList("Granny Smith", "Red Delicious", "Golden Delicious")),
-            new Pair<>("Bananas", Arrays.asList("Cavendish", "Lady Finger", "Red Banana")),
-            new Pair<>("Oranges", Arrays.asList("Navel", "Valencia", "Blood Orange")),
-            new Pair<>("Grapes", Arrays.asList("Thompson Seedless", "Concord", "Muscat")),
-            new Pair<>("Strawberries", Arrays.asList("Albion", "Seascape", "Chandler"))
+            new Pair<>("one", Arrays.asList("1", "2", "3")),
+            new Pair<>("two", Arrays.asList("1", "2", "3")),
+            new Pair<>("three", Arrays.asList("1", "2", "3")),
+            new Pair<>("four", Arrays.asList("1", "2", "3")),
+            new Pair<>("five", Arrays.asList("1", "2", "3"))
     ));
 
     @Override

@@ -1,4 +1,4 @@
-package com.witelokk.prac6;
+package com.netrava.prac6;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.witelokk.prac6.databinding.FragmentBinding;
+import com.netrava.prac6.databinding.FragmentBinding;
 
 public class ThirdFragment extends Fragment {
     FragmentBinding binding;
