@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/fragment_music"
-        android:name="com.witelokk.prac7.MusicFragment"
+        android:name="com.netrava.prac7.MusicFragment"
         android:label="MusicFragment" >
         <action
             android:id="@+id/action_musicFragment_to_dialogsFragment"
@@ -14,7 +14,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragment_dialogs"
-        android:name="com.witelokk.prac7.DialogsFragment"
+        android:name="com.netrava.prac7.DialogsFragment"
         android:label="DialogsFragment" >
         <action
             android:id="@+id/action_dialogsFragment_to_musicFragment"

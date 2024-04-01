@@ -1,4 +1,4 @@
-package com.witelokk.prac7;
+package com.netrava.prac7;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -20,7 +20,7 @@ import androidx.annotation.Nullable;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.fragment.app.Fragment;
 
-import com.witelokk.prac7.databinding.FragmentMusicBinding;
+import com.netrava.prac7.databinding.FragmentMusicBinding;
 
 public class MusicFragment extends Fragment {
     FragmentMusicBinding binding;

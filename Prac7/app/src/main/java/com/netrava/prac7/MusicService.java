@@ -1,4 +1,4 @@
-package com.witelokk.prac7;
+package com.netrava.prac7;
 
 import android.app.Service;
 import android.content.Intent;
@@ -6,7 +6,6 @@ import android.media.MediaMetadataRetriever;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.IBinder;
-import android.util.Log;
 
 import androidx.annotation.Nullable;
 

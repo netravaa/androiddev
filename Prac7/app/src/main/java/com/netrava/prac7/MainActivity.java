@@ -1,4 +1,4 @@
-package com.witelokk.prac7;
+package com.netrava.prac7;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.NavigationUI;
 
-import com.witelokk.prac7.databinding.ActivityMainBinding;
+import com.netrava.prac7.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
     ActivityMainBinding binding;

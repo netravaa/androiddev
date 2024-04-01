@@ -1,15 +1,11 @@
-package com.witelokk.prac7;
+package com.netrava.prac7;
 
-import android.app.DatePickerDialog;
 import android.app.Dialog;
-import android.app.TimePickerDialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.DatePicker;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,8 +16,8 @@ import com.google.android.material.datepicker.MaterialDatePicker;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.timepicker.MaterialTimePicker;
 import com.google.android.material.timepicker.TimeFormat;
-import com.witelokk.prac7.databinding.DialogCustomBinding;
-import com.witelokk.prac7.databinding.FragmentDialogsBinding;
+import com.netrava.prac7.databinding.DialogCustomBinding;
+import com.netrava.prac7.databinding.FragmentDialogsBinding;
 
 import java.util.Calendar;
 
