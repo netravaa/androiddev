@@ -1,4 +1,4 @@
-package com.witelokk.prac5;
+package com.netrava.prac5;
 
 import android.os.Bundle;
 
@@ -8,7 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.witelokk.prac5.databinding.ActivityScrollviewBinding;
+import com.netrava.prac5.databinding.ActivityScrollviewBinding;
 
 public class ScrollViewActivity extends AppCompatActivity {
     ActivityScrollviewBinding binding;

@@ -1,4 +1,4 @@
-package com.witelokk.prac5;
+package com.netrava.prac5;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -18,8 +18,8 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.witelokk.prac5.databinding.ActivityRecyclerViewBinding;
-import com.witelokk.prac5.databinding.ItemRecyclerviewBinding;
+import com.netrava.prac5.databinding.ActivityRecyclerViewBinding;
+import com.netrava.prac5.databinding.ItemRecyclerviewBinding;
 
 import java.util.ArrayList;
 import java.util.List;

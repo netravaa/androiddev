@@ -1,4 +1,4 @@
-package com.witelokk.prac5;
+package com.netrava.prac5;
 
 import org.junit.Test;
 

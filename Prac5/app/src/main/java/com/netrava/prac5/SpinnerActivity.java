@@ -1,4 +1,4 @@
-package com.witelokk.prac5;
+package com.netrava.prac5;
 
 import android.os.Bundle;
 import android.view.View;
@@ -12,7 +12,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.witelokk.prac5.databinding.ActivitySpinnerBinding;
+import com.netrava.prac5.databinding.ActivitySpinnerBinding;
 
 public class SpinnerActivity extends AppCompatActivity {
     ActivitySpinnerBinding binding;

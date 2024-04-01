@@ -1,12 +1,8 @@
-package com.witelokk.prac5;
+package com.netrava.prac5;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.util.TypedValue;
 import android.widget.ArrayAdapter;
-import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AlertDialog;
@@ -16,9 +12,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.witelokk.prac5.databinding.ActivityCategoryBinding;
-import com.witelokk.prac5.databinding.DialogAddVarietyBinding;
-import com.witelokk.prac5.databinding.DialogRemoveVarietyBinding;
+import com.netrava.prac5.databinding.ActivityCategoryBinding;
+import com.netrava.prac5.databinding.DialogAddVarietyBinding;
+import com.netrava.prac5.databinding.DialogRemoveVarietyBinding;
 
 import java.util.ArrayList;
 

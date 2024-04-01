@@ -1,4 +1,4 @@
-package com.witelokk.prac5;
+package com.netrava.prac5;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ import androidx.core.util.Pair;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.witelokk.prac5.databinding.ActivityCategoriesBinding;
+import com.netrava.prac5.databinding.ActivityCategoriesBinding;
 
 import java.util.ArrayList;
 import java.util.Arrays;
