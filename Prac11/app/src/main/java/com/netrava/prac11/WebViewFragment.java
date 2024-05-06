@@ -1,4 +1,4 @@
-package com.witelokk.prac11;
+package com.netrava.prac11;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.witelokk.prac11.databinding.FragmentWebviewBinding;
+import com.netrava.prac11.databinding.FragmentWebviewBinding;
 
 public class WebViewFragment extends Fragment {
     FragmentWebviewBinding binding;

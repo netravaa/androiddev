@@ -1,4 +1,4 @@
-package com.witelokk.prac11;
+package com.netrava.prac11;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -9,9 +9,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.LiveData;
 
-import com.witelokk.prac11.databinding.FragmentMusicBinding;
+import com.netrava.prac11.databinding.FragmentMusicBinding;
 
 import java.io.IOException;
 

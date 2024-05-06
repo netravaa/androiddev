@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                         writer.append(text);
                         writer.flush();
                         writer.close();
-                    }
+                     }
                 }
             } catch (IOException e) {
                 e.printStackTrace();

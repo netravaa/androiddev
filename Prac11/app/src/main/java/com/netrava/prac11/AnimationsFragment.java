@@ -1,4 +1,4 @@
-package com.witelokk.prac11;
+package com.netrava.prac11;
 
 import android.animation.ObjectAnimator;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.witelokk.prac11.databinding.FragmentAnimationsBinding;
+import com.netrava.prac11.databinding.FragmentAnimationsBinding;
 
 public class AnimationsFragment extends Fragment {
     FragmentAnimationsBinding binding;

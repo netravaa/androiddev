@@ -1,4 +1,4 @@
-package com.witelokk.prac11;
+package com.netrava.prac11;
 
 import static androidx.core.content.ContextCompat.getSystemService;
 
@@ -15,7 +15,7 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.fragment.app.Fragment;
 
-import com.witelokk.prac11.databinding.FragmentNotificationsBinding;
+import com.netrava.prac11.databinding.FragmentNotificationsBinding;
 
 public class NotificationsFragment extends Fragment {
     FragmentNotificationsBinding binding;
