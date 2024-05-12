@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.witelokk.prac11"
+    namespace = "com.netrava.prac11"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.witelokk.prac11"
+        applicationId = "com.netrava.prac11"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
