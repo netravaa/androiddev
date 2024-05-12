@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                         );
                         databaseHelper.addStudent(student);
                         students.add(student);
-                        adapter.no();
+
                     })
                     .setNegativeButton("Cancel", (dialog, whichButton) -> {})
                     .create()
